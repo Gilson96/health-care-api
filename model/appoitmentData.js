@@ -5,7 +5,7 @@ const appoitmentSchema = new Schema({
     id: Number,
     fullName: String,
     dob: String,
-    speciality: String,
+    email: String,
     createdAt: Date,
     doctor: {
         type: Schema.Types.ObjectId,
