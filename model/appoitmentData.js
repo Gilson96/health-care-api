@@ -4,7 +4,7 @@ const { Schema } = mongoose;
 const appoitmentSchema = new Schema({
     id: Number,
     fullName: String,
-    dob: String,
+    dob: Date,
     email: String,
     appoitmentDate: Date,
     speciality: String,
