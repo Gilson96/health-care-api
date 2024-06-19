@@ -6,7 +6,8 @@ const appoitmentSchema = new Schema({
     fullName: String,
     dob: String,
     email: String,
-    createdAt: Date,
+    appoitmentDate: Date,
+    speciality: String,
     doctor: {
         type: Schema.Types.ObjectId,
         ref: "Doctor"
